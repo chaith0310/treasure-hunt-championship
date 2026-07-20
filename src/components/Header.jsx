@@ -2,6 +2,7 @@ import { Trophy, BarChart3, Home } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { gameConfig } from "../config/gameConfig";
 import ProgressBar from "./ProgressBar";
+import React from "react";
 
 export default function Header({ teamName, currentLevel }) {
   const location = useLocation();
