@@ -1,3 +1,4 @@
+import React from "react";
 import { CheckCircle2, KeyRound } from "lucide-react";
 import { useState } from "react";
 import GlassCard from "../components/GlassCard";

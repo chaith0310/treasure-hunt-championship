@@ -1,6 +1,6 @@
+import React from "react";
 import { CheckCircle2, Lock } from "lucide-react";
 import { gameConfig } from "../config/gameConfig";
-import React from "react";
 import { build } from "vite";
 
 export default function LevelStepper({ currentLevel, completedLevels = 0 }) {

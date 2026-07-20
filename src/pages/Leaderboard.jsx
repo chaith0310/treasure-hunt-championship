@@ -1,3 +1,4 @@
+import React from "react";
 import { Crown, Medal, Trophy } from "lucide-react";
 import { gameConfig } from "../config/gameConfig";
 import GlassCard from "../components/GlassCard";

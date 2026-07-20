@@ -1,3 +1,4 @@
+import React from "react";
 import { Navigate, useParams } from "react-router-dom";
 import GlassCard from "../components/GlassCard";
 import { gameConfig } from "../config/gameConfig";

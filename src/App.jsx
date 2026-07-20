@@ -1,3 +1,4 @@
+import React from "react";
 import { Navigate, Route, Routes, useNavigate } from "react-router-dom";
 import { useEffect, useMemo, useState } from "react";
 import Header from "./components/Header";
@@ -7,7 +8,6 @@ import MissionBrief from "./pages/MissionBrief";
 import ChallengeRouter from "./pages/ChallengeRouter";
 import Leaderboard from "./pages/Leaderboard";
 import CompletionPage from "./pages/CompletionPage";
-import React from "react";
 
 function readProgress() { const fallback = { currentLevel: 1, completedLevels: 0, complete: false }; try { return JSON.parse(localStorage.getItem(gameConfig.storageKeys.progress)) || fallback; } catch { return fallback; } }
 function readLeaderboard() { try { return JSON.parse(localStorage.getItem(gameConfig.storageKeys.leaderboard) || "[]"); } catch { return []; } }

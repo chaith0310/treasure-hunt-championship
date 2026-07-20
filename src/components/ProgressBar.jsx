@@ -1,5 +1,5 @@
-import { gameConfig } from "../config/gameConfig";
 import React from "react";
+import { gameConfig } from "../config/gameConfig";
 
 export default function ProgressBar({ currentLevel = 1 }) {
   const progress = Math.min(100, Math.round((Number(currentLevel) / gameConfig.totalLevels) * 100));

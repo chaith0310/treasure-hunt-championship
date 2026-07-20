@@ -1,3 +1,4 @@
+import React from "react";
 import { ArrowRight, Flag, Sparkles } from "lucide-react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import GlassCard from "../components/GlassCard";

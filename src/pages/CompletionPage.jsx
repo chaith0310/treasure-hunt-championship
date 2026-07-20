@@ -1,3 +1,4 @@
+import React from "react";
 import { Trophy, BarChart3, CheckCircle2 } from "lucide-react";
 import { Link } from "react-router-dom";
 import GlassCard from "../components/GlassCard";
